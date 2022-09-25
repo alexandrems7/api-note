@@ -15,12 +15,12 @@
       "description": "API de notas"
     },
     {
-      "url": "https://api-blue-note.herokuapp.com/",
+      "url": "https://api-blue-note.herokuapp.com/notes",
       "description": "API de notas"
     }
   ],
   "paths": {
-    "/notes/all": {
+    "/all": {
       "get": {
         "summary": "Lista de todas as notas",
         "description": "Rota responsável por listar todas as notas",
