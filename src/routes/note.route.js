@@ -3,7 +3,7 @@ const controllerNotes = require('../controllers/note.controller');
 const { validId, validObjectBody } = require('../middlewares/note.middleware');
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('../../swagger.json');
-
+// dfjkjdf
 route.use('/api-docs', swaggerUi.serve);
 route.get('/api-docs', swaggerUi.setup(swaggerDocument));
 
