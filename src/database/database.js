@@ -2,8 +2,7 @@ const mongoose = require('mongoose');
 
 const connectToDatabase = () => {
   mongoose
-    .connect('mongodb+srv://admin:admin@api-note.sc6n2l7.mongodb.net/?retryWrites=true&w=majority', {
-      //Esses campos evitam que a conexão tenha algum problema
+    .connect(process.env.URI_DATABASE, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
